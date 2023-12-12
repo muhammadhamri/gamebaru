@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="end">
+      <h1>Congratulation</h1><br>
+      <p>You have reached the required score to play on <P></P><span>level three</span></p><br><br><br>
+      <p>"Tidak ada batas untuk menuntut ilmu. Semakin banyak kita belajar, semakin luas pandangan kita terhadap dunia."</p>
+      <p>"Pendidikan bukanlah beban, melainkan investasi terbaik untuk masa depan. Semakin tinggi investasi, semakin besar hasilnya."</p><p>"Pohon besar bermula dari biji kecil, begitu pula ilmu yang diperoleh dari langkah-langkah kecil menuju kesempurnaan." </p><br><br>
+
+      <p><a href="../present-continious/index.html" target="_blank">NEXT LEVEL</a></p>
+  
+    </div>
+    <div class="end1">
+      <h1>Mohon maaf anda gagal</h1>
+      <p>You do not reached the required score  <P> <br><br></P><span>SCORE ANDA TIDAK CUKUP UNTUK MELANJUTKAN KE LEVEL BERIKUTNYA.</span></p></h3>
+      <br><br><br>
+      <p>"Tidak ada batas untuk menuntut ilmu. Semakin banyak kita belajar, semakin luas pandangan kita terhadap dunia."</p>
+      <p>"Pendidikan bukanlah beban, melainkan investasi terbaik untuk masa depan. Semakin tinggi investasi, semakin besar hasilnya."</p><p>"Pohon besar bermula dari biji kecil, begitu pula ilmu yang diperoleh dari langkah-langkah kecil menuju kesempurnaan." </p>
+
+      <p><a href="../noun/index.html" target="_blank">PLAY AGAIN</a></p>
+  
+    </div>
+    <div class="score">
+      <!-- Tambahkan elemen untuk menampilkan skor -->
+      <p id="user-score">Skor: 0</p>
+    </div>
+    <div class="geser">Drag gambar ke kotak yang sesuai</div>
+    <section class="draggable-elements">
+      <i class="fa-solid fa-cow draggable" draggable="true" style="color: rgb(115, 107, 224)" id="cow"></i>
+      <i class="fa-solid fa-hippo draggable" draggable="true" style="color: rgb(231, 42, 83)" id="hippo"></i>
+      <i class="fa-solid fa-locust draggable" draggable="true" style="color: rgb(26, 12, 221)" id="locust"></i>
+      <i class="fa-solid fa-spider draggable" draggable="true" style="color: rgb(8, 6, 31)" id="spider"></i>
+      <i class="fa-solid fa-worm draggable" draggable="true" style="color: rgb(42, 55, 231)" id="worm"></i>
+      <i class="fa-solid fa-horse-head draggable" draggable="true" style="color: rgb(231, 42, 200)" id="horse-head"></i>
+      <i class="fa-solid fa-shrimp draggable" draggable="true" style="color: rgb(6, 105, 39)" id="shrimp"></i>
+      <i class="fa-solid fa-cat draggable" draggable="true" style="color: rgb(54, 42, 231)" id="cat"></i>
+      <i class="fa-solid fa-dog draggable" draggable="true" style="color: rgb(2, 20, 10)" id="dog"></i>
+      <i class="fa-solid fa-frog draggable" draggable="true" style="color: rgb(226, 43, 186)" id="frog"></i>
+      <i class="fa-solid fa-fish draggable" draggable="true" style="color: blueviolet" id="fish"></i>
+      <i class="fa-solid fa-kiwi-bird draggable" draggable="true" style="color: red" id="kiwi-bird"></i>
+    </section>
+
+    <section class="droppable-elements">
+      <div class="droppable" data-draggable-id="fish"><span>fish</span></div>
+      <div class="droppable" data-draggable-id="shrimp"><span>shrimp</span></div>
+      <div class="droppable" data-draggable-id="frog"><span>frog</span></div>
+      <div class="droppable" data-draggable-id="kiwi-bird"><span>bird</span></div>
+      <div class="droppable" data-draggable-id="cow"><span>cow</span></div>
+      <div class="droppable" data-draggable-id="hippo"><span >hippo</span></div>
+      <div class="droppable" data-draggable-id="worm"><span>worm</span></div>
+      <div class="droppable" data-draggable-id="horse-head"><span>horse</span></div>
+      <div class="droppable" data-draggable-id="spider"><span>spider</span></div>
+      <div class="droppable" data-draggable-id="locust"><span>locust</span></div>
+      <div class="droppable" data-draggable-id="cat"><span>cat</span></div>
+      <div class="droppable" data-draggable-id="dog"><span>dog</span></div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

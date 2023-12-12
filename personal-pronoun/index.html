@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Present Continious</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tombol">
+      <ul>
+        <li><a href="ocupation/index.html" target="_blank">Ocupation</a></li>
+        <li><a href="#">Present continious</a></li>
+        <li><a href="noun/index.html" target="_blank">Noun</a></li>
+        <li><a href="verb/index.html" target="_blank">Verb</a></li>
+        <li><a href="personal-pronoun/index.html" target="_blank">Personal pronoun</a></li>
+      </ul>
+    </div>
+    <div class="pop">
+      <div class="popup">
+        <h2>good job</h2>
+      </div>
+
+      <div class="popup1">
+        <h2>Try again</h2>
+      </div>
+
+      <div class="popup2">
+        <p>write your answer!</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="game1">
+        <div class="gamekotak1">
+          <h2 class="h21">They are reading book</h2>
+          <div class="imagekotak1"></div>
+          <form action="">
+            <input autocomplete="off" type="text" class="input1" oninput="checkInputGame1(this.value)" />
+          </form>
+          <button class="button1" type="button" onclick="handleButtonClickGame1()">kirim</button>
+        </div>
+      </div>
+
+      <div class="game2">
+        <div class="gamekotak2">
+          <h2 class="h22">Is she cooking?</h2>
+          <div class="imagekotak2"></div>
+          <form action="">
+            <input type="text" class="input2" placeholder="Introgative sentence" oninput="checkInputGame2(this.value)" />
+          </form>
+          <button class="button2" type="button" onclick="handleButtonClickGame2()">kirim</button>
+        </div>
+      </div>
+
+      <div class="game3">
+        <div class="gamekotak3">
+          <h2 class="h23">He is not helping his mother</h2>
+          <div class="imagekotak3"></div>
+          <form action="">
+            <input type="text" class="input3" placeholder="negative sentence" oninput="checkInputGame3(this.value)" autocomplete="off" />
+          </form>
+          <button class="button3" type="button" onclick="handleButtonClickGame3()">kirim</button>
+        </div>
+      </div>
+
+      <div class="game4">
+        <div class="gamekotak4">
+          <h2 class="h24">They are singing</h2>
+          <div class="imagekotak4"></div>
+          <form action="">
+            <input type="text" class="input4" oninput="checkInputGame4(this.value)" />
+          </form>
+          <button class="button4" type="button" onclick="handleButtonClickGame4()">kirim</button>
+        </div>
+      </div>
+
+      <div class="game5">
+        <div class="gamekotak5">
+          <h2 class="h25">He is swimming</h2>
+          <div class="imagekotak5"></div>
+          <form action="">
+            <input type="text" class="input5" oninput="checkInputGame5(this.value, 1)" />
+          </form>
+          <button class="button5" type="button" onclick="handleButtonClickGame5()">kirim</button>
+        </div>
+      </div>
+
+      <div class="game6">
+        <div class="gamekotak6">
+          <h2 class="h26">They are playing football</h2>
+          <div class="imagekotak6"></div>
+          <form action="">
+            <input type="text" class="input6" oninput="checkInputGame6(this.value, 2)" />
+          </form>
+          <button class="button6" type="button" onclick="handleButtonClickGame6()">kirim</button>
+        </div>
+      </div>
+
+      <div class="game7">
+        <div class="gamekotak7">
+          <h2 class="h27">They are building sand castle</h2>
+          <div class="imagekotak7"></div>
+          <form action="">
+            <input type="text" class="input7" oninput="checkInputGame7(this.value)" />
+          </form>
+          <button class="button7" type="button" onclick="handleButtonClickGame7()">kirim</button>
+        </div>
+      </div>
+
+      <div class="game8">
+        <div class="gamekotak8">
+          <h2 class="h28">The students are cleaning classroom</h2>
+          <div class="imagekotak8"></div>
+          <form action="">
+            <input type="text" class="input8" oninput="checkInputGame8(this.value)" />
+          </form>
+          <button class="button8" type="button" onclick="handleButtonClickGame8()">kirim</button>
+        </div>
+      </div>
+
+      <div class="game9">
+        <div class="gamekotak9">
+          <h2 class="h29">He is watching TV</h2>
+          <div class="imagekotak9"></div>
+          <form action="">
+            <input type="text" class="input9" oninput="checkInputGame9(this.value)" />
+          </form>
+          <button class="button9" type="button" onclick="handleButtonClickGame9()">kirim</button>
+        </div>
+      </div>
+    </div>
+    <div class="container-end">
+      <div class="the-end">
+        <h1>You just finish this game</h1>
+
+        <p>"Tidak ada batas untuk menuntut ilmu. Semakin banyak kita belajar, semakin luas pandangan kita terhadap dunia."</p>
+        <p>"Pohon besar bermula dari biji kecil, begitu pula ilmu yang diperoleh dari langkah-langkah kecil menuju kesempurnaan."</p>
+
+        <button type="button" class="end-button" id="button">Play again</button>
+
+        <p><a href="ocupation/index.html" target="_blank">Try Other Game</a></p>
+      </div>
+    </div>
+
+    <div></div>
+    <script src="script.js"></script>
+  </body>
+</html>

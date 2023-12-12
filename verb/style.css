@@ -1,0 +1,22 @@
+body {
+  background-image: linear-gradient(green, black);
+  height: 100vh;
+}
+
+.tombol {
+  margin-left: -25px;
+}
+
+ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: antiquewhite;
+}
+
+ul li a:hover {
+  color: red;
+}
+
+ul li {
+  list-style: none;
+}
